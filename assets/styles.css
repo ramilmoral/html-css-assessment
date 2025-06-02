@@ -5,12 +5,12 @@
   font-family: Arial, Helvetica;
 }
 
-/* Header */
+/* ===== Header ===== */
 header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 15px 50px;
+  padding: 15px 25px;
   position: sticky;
   font-size: 14px;
 }
@@ -86,3 +86,116 @@ header .material-symbols-outlined.chevron_right {
 header .right_nav li {
   padding: 0px 10px;
 }
+
+/* =====end of Header ===== */
+
+/* ===== Hero section ===== */
+
+main section .hero_section {
+  position: relative;
+  padding: 11rem 10rem;
+}
+
+main section .row {
+  display: flex;
+}
+
+main section .column {
+  flex: 50%;
+}
+
+main .hero_section .visual_editor {
+  padding: 10px 25px;
+  border-radius: 25px;
+  background-color: #f5f5f5;
+  font-size: 14px;
+}
+
+main .hero_section h1.title {
+  font-size: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main .hero_section h1.title svg {
+  width: 40px;
+  height: 40px;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+main .hero_section span.perfect {
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+}
+
+main .hero_section .hero_text {
+  font-size: 20px;
+  line-height: 32.5px;
+  color: rgb(115, 115, 115);
+  margin-bottom: 20px;
+}
+
+main .hero_section .row_btn {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+
+main .hero_section .row_btn a {
+  margin: 10px 0px;
+}
+
+main .hero_section .row_btn button {
+  border-radius: 25px;
+  padding: 10px 25px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 2px;
+  transition: margin 0.2s ease-in-out;
+}
+
+main .hero_section .row_btn button:hover {
+  margin-top: -2px;
+}
+
+main .hero_section .btn_start {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #ffffff;
+  column-gap: 10px;
+}
+
+main .hero_section .btn_start:hover {
+  opacity: 0.8;
+}
+
+main .hero_section .btn_start .arrow_right {
+  font-size: 16px;
+}
+
+main .hero_section .btn_example {
+  background-color: #fff;
+  border: 1px solid rgb(229, 229, 229);
+  color: #000;
+}
+
+main .hero_section .check_texts {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  gap: 0px 30px;
+  color: #737373;
+  font-size: 14px;
+}
+
+main .hero_section .check_texts span {
+  vertical-align: middle;
+  padding-right: 5px;
+  color: rgb(23, 23, 23);
+}
+
+/* ===== end Hero section ===== */
