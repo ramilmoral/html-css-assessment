@@ -1,0 +1,88 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px 50px;
+  position: sticky;
+  font-size: 14px;
+}
+
+header .nav-title {
+  font-size: 1em;
+}
+
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+header nav a {
+  color: rgb(115, 115, 115);
+}
+
+header nav a:hover {
+  color: #000;
+  border-bottom: 2px solid #000;
+}
+
+header a {
+  text-decoration: none;
+  color: #555;
+  transition: all 0.3s ease 0s;
+}
+
+header .github_icon {
+  padding: 10px 25px;
+  color: #000;
+  transition: all 0.2s ease 0s;
+}
+
+header .github_icon:hover {
+  border-radius: 5px;
+  background-color: #e5e5e5;
+}
+
+header .material-symbols-outlined.clear_day {
+  font-size: 16px;
+  border-radius: 50%;
+  background-color: #e5e5e5;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+header .cta_try_now {
+  border-radius: 25px;
+  padding: 5px 14px;
+  display: inline-flex;
+  align-items: center;
+  background-color: #000;
+  border: 1px solid #000;
+  color: #ffffff;
+  transition: all 0.2s ease 0s;
+}
+
+header button.cta_try_now:hover {
+  scale: 1.1;
+  opacity: 0.8;
+}
+
+header .cta_try_now .chevron_right {
+  padding-left: 10px;
+}
+
+header .material-symbols-outlined.chevron_right {
+  font-size: 22px;
+}
+
+header .right_nav li {
+  padding: 0px 10px;
+}
